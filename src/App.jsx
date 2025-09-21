@@ -17,7 +17,7 @@ function App() {
       <div className="w-full">
         <header className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-8 px-6 py-6 md:py-8">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold">Vishnu Vardhan Puppala</h1>
+            <h2 className="text-3xl md:text-4xl font-bold">Hi, I'm Vishnu Vardhan Puppala</h2>
             <p className="text-gray-300 mt-1">Software Developer with 1+ years of experience at BNY, skilled in Java, Spring Boot, and building scalable client-facing applications</p>
             <p className="text-sm text-gray-400 mt-3">Chennai, Tamil Nadu • Interested to work in roles focusing on full-stack engineering</p>
           </div>
@@ -28,7 +28,7 @@ function App() {
               className="inline-flex items-center justify-center text-center text-white px-4 rounded-md text-sm shadow-md relative z-20 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 opacity-100 no-underline w-44 h-10 leading-none"
               style={{ backgroundColor: '#4f46e5', color: '#ffffff' }}
             >
-              Download resume
+              Download Resume
             </a>
           </div>
         </header>
@@ -248,7 +248,7 @@ function App() {
         <footer className="mt-12 text-sm text-gray-400 text-center pb-6">
           <div className="max-w-3xl mx-auto px-4">
             <p className="text-gray-200">Interested in collaborating or hiring? You can reach me at the email below — I typically respond within 48 hours.</p>
-            <div className="mt-3 flex items-center justify-center gap-6">
+            <div className="mt-3 flex flex-wrap items-center justify-center gap-6">
               <a href="mailto:vishnuvardhanpuppala2003@gmail.com" className="inline-flex items-center gap-2 h-6 leading-none text-indigo-300 hover:underline">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
