@@ -175,7 +175,7 @@ function App() {
                   <div className="font-medium text-gray-200">Technical Explorations</div>
                   <div className="mt-3 text-sm text-gray-300 flex items-center justify-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />
-                    <span>Apache Spark - Java RDDs and SparkSQL</span>
+                    <span>Apache Spark - Java RDDs, SparkSQL, Spark Streaming</span>
                   </div>
                 </div>
               </div>
