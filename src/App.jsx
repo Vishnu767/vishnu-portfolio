@@ -58,31 +58,6 @@ function App() {
               </div>
             </Section>
 
-            <Section id="projects" title="Projects">
-              <div className="space-y-4">
-                <article className="p-4 bg-white/3 rounded-md border border-white/6">
-                  <h3 className="font-semibold">RNAS — Randomized Neural Architecture Search</h3>
-                  <p className="text-sm text-gray-300">RNAS is aimed at efficiently discovering high-performing architectures. Our approach involves embedding the unstructured space of neural architectures within a manifold, enabling constrained exploration of architectures with promising performance potential. By diligently sampling architectures from regions exhibiting high performance values within this constrained space, our algorithm focuses its search efforts on promising candidates.</p>
-                  <div className="mt-2 text-sm">
-                    <a href="https://github.com/Vishnu767/BTP-RNAS" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline">Repository →</a>
-                  </div>
-                </article>
-
-                <article className="p-4 bg-white/3 rounded-md border border-white/6">
-                  <h3 className="font-semibold">Tirutsava Website — IIT Tirupati Fest</h3>
-                  <p className="text-sm text-gray-300">Developed the Tirutsava fest website as part of the Web Development Committee to showcase events, schedules and registration flows for the college fest.</p>
-                </article>
-
-                <article className="p-4 bg-white/3 rounded-md border border-white/6">
-                  <h3 className="font-semibold">ERP Project — MERN Stack</h3>
-                  <p className="text-sm text-gray-300">Developed an ERP-style website as part of the Software Engineering course to learn and build full-stack features using the MERN stack.</p>
-                  <div className="mt-2 text-sm">
-                    <a href="https://github.com/Vishnu767/Software-Engineering-Web-development-project" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline">Repository →</a>
-                  </div>
-                </article>
-              </div>
-            </Section>
-
             <Section id="education" title="Education">
               <div className="p-4 bg-white/3 rounded-md border border-white/6 text-gray-300">
                 <h4 className="font-semibold">B.Tech, Computer Science & Engineering — Indian Institute of Technology, Tirupati</h4>
@@ -123,6 +98,43 @@ function App() {
                 </div>
               </div>
             </Section>
+
+            <Section id="projects" title="Projects">
+              <div className="space-y-4">
+                <article className="p-4 bg-white/3 rounded-md border border-white/6">
+                  <h3 className="font-semibold">RNAS — Randomized Neural Architecture Search</h3>
+                  <p className="text-sm text-gray-300">RNAS is aimed at efficiently discovering high-performing architectures. Our approach involves embedding the unstructured space of neural architectures within a manifold, enabling constrained exploration of architectures with promising performance potential. By diligently sampling architectures from regions exhibiting high performance values within this constrained space, our algorithm focuses its search efforts on promising candidates.</p>
+                  <div className="mt-2 text-sm">
+                    <a href="https://github.com/Vishnu767/BTP-RNAS" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline">Repository →</a>
+                  </div>
+                </article>
+
+                <article className="p-4 bg-white/3 rounded-md border border-white/6">
+                  <h3 className="font-semibold">Debt Detective</h3>
+                  <p className="text-sm text-gray-300">
+                    Built a VS Code extension, that integrates multiple external analysis tools to quantify technical debt based on five
+                    parameters — Package Vulnerability and Security, Community Activeness and Maintenance, Coding Quality and
+                    Standard, Code Vulnerability and Security, Depreciated/Dead and Outdated code. Designed automated workflows to aggregate and visualize metrics from various tools, providing developers with insights
+                    and recommendations to enhance their code and reduce technical debt.</p>
+                  <div className="mt-2 text-sm">
+                    <a href="https://github.com/Ganesh-P03/SE_tool_team5" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline">Repository →</a>
+                  </div>
+                </article>
+
+                <article className="p-4 bg-white/3 rounded-md border border-white/6">
+                  <h3 className="font-semibold">Tirutsava Website — IIT Tirupati Fest</h3>
+                  <p className="text-sm text-gray-300">Developed the Tirutsava fest website as part of the Web Development Committee to showcase events, schedules and registration flows for the college fest.</p>
+                </article>
+
+                <article className="p-4 bg-white/3 rounded-md border border-white/6">
+                  <h3 className="font-semibold">ERP Project — MERN Stack</h3>
+                  <p className="text-sm text-gray-300">Developed an ERP-style website as part of the Software Engineering course to learn and build full-stack features using the MERN stack.</p>
+                  <div className="mt-2 text-sm">
+                    <a href="https://github.com/Vishnu767/Software-Engineering-Web-development-project" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:underline">Repository →</a>
+                  </div>
+                </article>
+              </div>
+            </Section>
           </main>
 
           <aside className="lg:col-span-1 space-y-6">
@@ -131,44 +143,43 @@ function App() {
                 <div className="p-3 rounded-md bg-white/3 border border-white/6">
                   <div className="font-medium text-gray-200 text-center">Programming & Query Languages</div>
                   <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>C++</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>C</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>Java</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>JavaScript</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>TypeScript</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>Python</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>SQL</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>Mongoose</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />C++</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />C</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />Java</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />JavaScript</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />TypeScript</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />Python</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />SQL</div>
                   </div>
                 </div>
                 <div className="p-3 rounded-md bg-white/3 border border-white/6">
                   <div className="font-medium text-gray-200 text-center">Web Technologies</div>
                   <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>Spring Boot</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>ExpressJS</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>ReactJS</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>NextJS</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>HTML</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>CSS</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>Bootstrap</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />Spring Boot</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />ExpressJS</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />ReactJS</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />NextJS</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />HTML</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />CSS</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />Bootstrap</div>
                   </div>
                 </div>
                 <div className="p-3 rounded-md bg-white/3 border border-white/6">
                   <div className="font-medium text-gray-200 text-center">Core Competencies</div>
                   <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>REST APIs</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>Microservices</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>System Design</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>DSA</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />REST APIs</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />Microservices</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />System Design</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />DSA</div>
                   </div>
                 </div>
                 <div className="p-3 rounded-md bg-white/3 border border-white/6">
                   <div className="font-medium text-gray-200 text-center">Databases & AI Tools</div>
                   <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>DB2</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>MongoDB</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>GitHub Copilot</div>
-                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0"/>M365 Copilot</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />DB2</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />MongoDB</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />GitHub Copilot</div>
+                    <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-indigo-400 flex-shrink-0" />M365 Copilot</div>
                   </div>
                 </div>
                 <div className="p-3 rounded-md bg-white/3 border border-white/6 text-center">
@@ -231,7 +242,7 @@ function App() {
                 </div>
               </div>
             </Section>
-            
+
             <Section id="personal-milestones" title="Personal Milestones">
               <div className="p-3 rounded-md bg-white/3 border border-white/6 text-gray-300">
                 <ul className="list-none space-y-2">
