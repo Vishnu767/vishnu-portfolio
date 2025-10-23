@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Hero.css';
+import resumePdf from '../../assets/PUPPALA_VISHNU_VARDHAN_SDE_RESUME.pdf';
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
@@ -32,7 +33,7 @@ const Hero = () => {
       <p style={{ marginTop: '12px' }}>
         {/* Add relative path to the resume, so that it works after deployment as well */}
         <a
-          href="/src/assets/PUPPALA_VISHNU_VARDHAN_SDE_RESUME.pdf"
+          href={resumePdf}
           download="VISHNU_VARDHAN_PUPPALA.pdf"
           className="download-button"
         >
