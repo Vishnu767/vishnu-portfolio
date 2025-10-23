@@ -1,0 +1,179 @@
+:root {
+  --primary-color: #00ffff;
+  --secondary-color: #ff00ff;
+  --background-color: #0a0a0a;
+  --text-color: #00ffff;
+  --accent-color: #00ff00;
+  --hover-bg: rgba(0, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* This accounts for the fixed navbar */
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main content */
+main {
+  padding-top: 80px; /* Changed from margin to padding */
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.section {
+  min-height: calc(100vh - 80px); /* Subtract navbar height */
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Tablet adjustments */
+@media (max-width: 991px) {
+  .section {
+    padding: 3rem 1.5rem;
+    min-height: auto; /* Remove fixed height on smaller screens */
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 575px) {
+  .section {
+    padding: 2.5rem 1rem;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .section:not(:first-child) {
+    padding-top: 1.5rem; /* Reduce top padding for all sections except first */
+  }
+  
+  .section:not(:last-child) {
+    padding-bottom: 1.5rem; /* Reduce bottom padding for all sections except last */
+  }
+}
+
+.section-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+}
+
+@media (max-width: 991px) {
+  .section-title {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 1200px) {
+  .nav-container,
+  .section {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav-container,
+  .section {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .section {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .section {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .section {
+    page-break-inside: avoid;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .section-title {
+    color: black;
+    text-shadow: none;
+  }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

@@ -1,0 +1,78 @@
+.hero {
+  text-align: center;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: neonFlicker 2s infinite alternate;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #88ffff;
+  opacity: 0.8;
+}
+
+.download-button {
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+}
+
+.download-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+/* Landscape Mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    padding: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
