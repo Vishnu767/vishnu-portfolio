@@ -30,8 +30,9 @@ const Hero = () => {
       <p>Software Developer with 1+ years of experience at BNY, skilled in Java, Spring Boot, and building scalable client-facing applications</p>
       <p>Chennai, Tamil Nadu • Interested to work in roles focusing on full-stack engineering</p>
       <p style={{ marginTop: '12px' }}>
+        {/* Add relative path to the resume, so that it works after deployment as well */}
         <a
-          href="src/assets/PUPPALA_VISHNU_VARDHAN_SDE_RESUME.pdf"
+          href="/src/assets/PUPPALA_VISHNU_VARDHAN_SDE_RESUME.pdf"
           download="VISHNU_VARDHAN_PUPPALA.pdf"
           className="download-button"
         >
