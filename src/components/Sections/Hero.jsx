@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Hero.css';
-import resumePdf from '../../assets/PUPPALA_VISHNU_VARDHAN_SDE_RESUME.pdf';
+import resumePdf from '../../assets/PUPPALA_VISHNU_VARDHAN_RESUME.pdf';
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
